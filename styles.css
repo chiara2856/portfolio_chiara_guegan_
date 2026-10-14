@@ -82,3 +82,87 @@
 .escape-dialog-preview strong{font-size:clamp(54px,8vw,105px)}
 @media(max-width:530px){.marquee-track{gap:7px 13px;padding:14px 12px;font-size:11px;letter-spacing:.07em}.marquee-track b{font-size:14px}.projects-section{padding-top:55px}.visual-audit img,.visual-podcast img{padding:25px}}
 @media(max-width:530px){.visual-escape{padding:16px}.escape-preview{padding:19px}.escape-preview-top,.escape-preview-bottom{font-size:9px;letter-spacing:.06em}.escape-dialog-preview{height:260px;padding:19px}.escape-dialog-preview strong{font-size:clamp(47px,13vw,70px)}}
+
+/* Adaptation responsive : téléphones et petites tablettes */
+html,body{max-width:100%;}
+body{overflow-x:clip;}
+img,video,iframe,svg{max-width:100%;}
+.hero-copy,.hero-grid>* ,.section-head>*,.about-section>*,.contact-inner>*,.project-info>div{min-width:0;}
+@media (max-width:760px){
+  html{scroll-padding-top:76px;}
+  .hero-grid{min-height:0;}
+  .hero h1{font-size:clamp(48px,12vw,82px);overflow-wrap:normal;}
+  .hero-lead{max-width:55ch;}
+  .hero-photo-frame{max-width:510px;margin-inline:auto;}
+  .hero-photo-frame img{aspect-ratio:4/3;height:auto;max-height:400px;}
+  .section-head{margin-bottom:32px;}
+  .project-visual{height:auto;aspect-ratio:1.45;}
+  .project-visual img{position:absolute;inset:0;}
+  .about-photo{height:auto;aspect-ratio:4/3;object-position:35% center;}
+  .contact-card{transform:none;box-shadow:7px 8px 0 #9a64ba;}
+  .footer-inner{row-gap:12px;}
+  .dialog-shell{max-width:100%;}
+  .dialog-video{height:auto;}
+  .project-story,.dialog-text{min-width:0;}
+}
+@media (max-width:530px){
+  .wrap{width:calc(100% - 32px);}
+  .hero-grid{padding-block:52px 58px;gap:34px;}
+  .hero h1{font-size:clamp(45px,12.2vw,65px);letter-spacing:-.07em;}
+  .script-name{margin-left:2px;}
+  .hand-underline{bottom:-11px;height:8px;border-bottom-width:3px;}
+  .eyebrow{font-size:10px;letter-spacing:.11em;}
+  .hero-lead{font-size:17px;margin:27px 0 23px;}
+  .hero-actions{width:100%;}
+  .button{width:100%;max-width:350px;gap:15px;justify-content:space-between;white-space:normal;text-align:left;}
+  .hero-footnote{font-size:11px;margin-top:29px;}
+  .hero-photo-frame img{aspect-ratio:1.12;max-height:none;}
+  .section{padding-block:65px;}
+  .section h2,.contact-section h2{font-size:clamp(39px,10.2vw,56px);letter-spacing:-.06em;overflow-wrap:break-word;}
+  .section-intro{font-size:14px;margin-top:23px;}
+  .filters{gap:8px;}
+  .filter{min-height:40px;}
+  .project-grid{gap:20px;}
+  .project-visual{aspect-ratio:1.4;}
+  .project-info{display:block;padding:18px;}
+  .project-info h3{font-size:23px;overflow-wrap:anywhere;}
+  .project-link{display:inline-block;margin-top:12px;}
+  .visual-poke img{padding:22px;}
+  .visual-film img,.visual-audit img{padding:20px;}
+  .escape-preview{min-height:0;}
+  .escape-preview strong{font-size:clamp(33px,10vw,55px);}
+  .expertise-card{padding:24px 22px;min-height:0;}
+  .expertise-card h3{margin-top:23px;}
+  .about-section{gap:30px;}
+  .about-visual{padding:0 5px;}
+  .about-photo{height:auto;aspect-ratio:4/3;}
+  .about-copy h2{font-size:clamp(43px,11vw,62px);}
+  .about-copy .about-lead{font-size:18px;}
+  .about-highlights>div{gap:12px;padding:12px;}
+  .about-highlights>div>div>span{font-size:13px;}
+  .path-icon{width:40px;height:40px;}
+  .contact-section{padding-block:65px;}
+  .contact-inner{gap:37px;}
+  .contact-card{padding:30px 20px;min-height:260px;}
+  .contact-card a:first-of-type{font-size:clamp(17px,5.2vw,23px);overflow-wrap:anywhere;}
+  .contact-stamp{right:13px;top:18px;font-size:32px;}
+  .footer-inner{justify-content:center;text-align:center;gap:12px 20px;}
+  .project-dialog{width:calc(100% - 12px);max-height:calc(100dvh - 16px);}
+  .dialog-shell{padding:22px 15px;}
+  .dialog-heading{padding-right:43px;}
+  .dialog-heading h2{font-size:clamp(31px,9vw,46px);overflow-wrap:anywhere;}
+  .dialog-gallery{height:auto;min-height:180px;max-height:280px;}
+  .dialog-gallery img{min-width:0;}
+  .dialog-feature{padding:35px 18px;font-size:clamp(30px,9vw,46px);overflow-wrap:anywhere;}
+  .project-story h3{font-size:18px;}
+}
+@media(max-width:360px){
+  .wrap{width:calc(100% - 24px);}
+  .hero h1{font-size:clamp(41px,12vw,46px);}
+  .nav-links{padding-inline:12px;}
+  .contact-card{padding-inline:14px;}
+  .marquee-track{gap:6px 9px;font-size:10px;}
+  .marquee-track b{font-size:11px;}
+  .escape-preview{padding:12px;}
+  .escape-preview-top,.escape-preview-bottom{font-size:8px;}
+}

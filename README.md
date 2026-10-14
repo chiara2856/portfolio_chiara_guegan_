@@ -7,3 +7,6 @@ Pour publier le site, envoie le contenu entier du dossier sur ton hébergement e
 Les textes, les couleurs et les projets se modifient dans `index.html` et `styles.css`. Les interactions (menu mobile, filtres et fiches de projets) sont dans `script.js`.
 
 La fiche « Les Bon-bons » contient un lien vers le catalogue hébergé en ligne.
+
+
+Version responsive : adaptations CSS pour mobiles 320–760 px, tablettes et ordinateurs. Pour obtenir les images, vidéos et CV sur le site publié, conserve le dossier `assets/` original à côté de `index.html`. Le dossier `assets/` ne faisait pas partie des fichiers transmis ici.
